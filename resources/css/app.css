@@ -1,0 +1,12 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+/* –– sezioni progetto –– */
+@import "./nav.css";
+@import "./chatbot.css";
+@import "./home.css";
+@import './dashboard.css';
+
+/* –– utility globali (facoltativo) –– */
+:root{
+    --main-grey:#1e1e1e;
+}

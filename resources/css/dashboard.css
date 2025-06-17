@@ -1,0 +1,67 @@
+
+nav.navbar {
+  background: #000;
+}
+
+nav.navbar a {
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background .2s;
+}
+
+nav.navbar a:hover,
+nav.navbar .active {          /* link corrente evidenziato */
+  background: #444;
+}
+
+/* ─────────────────────────────────
+   LAYOUT CENTRALE DELLA DASHBOARD
+   ───────────────────────────────── */
+.dashboard-wrapper {
+  min-height: calc(100vh - 120px); /*  nav + footer ~= 120 px          */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.dashboard-wrapper h1 {
+  margin-bottom: 1rem;
+}
+
+.dashboard-wrapper .summary-card {
+  margin-bottom: 2rem;
+}
+
+/* ─────────────────────────────────
+   BOTTONI
+   ───────────────────────────────── */
+.dashboard-wrapper .btn {
+  background: #333;
+  color: #fff;
+  padding: 10px 22px;
+  margin: 0 6px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background .2s;
+}
+
+.dashboard-wrapper .btn:hover {
+  background: #444;
+}
+
+/* footer uguale alla navbar */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #000000aa; /* uguale alla home */
+    color: white;
+    padding: 10px;
+}
+
